@@ -8,15 +8,55 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(VTK COMPONENTS
   CommonColor
   CommonCore
+  CommonDataModel
+  CommonExecutionModel
+  FiltersGeneral
   FiltersSources
   IOImage
   IOGeometry
+  ImagingCore
+  CommonCore
+  CommonDataModel
+  FiltersSources
+  IOImage
+  ImagingStencil
   InteractionStyle
   RenderingContextOpenGL2
   RenderingCore
   RenderingFreeType
   RenderingGL2PSOpenGL2
   RenderingOpenGL2
+  FiltersCore
+  FiltersExtraction
+  FiltersGeometry
+  FiltersModeling
+  FiltersSources
+  CommonColor
+  CommonCore
+  CommonDataModel
+  FiltersSources
+  InteractionStyle
+  InteractionWidgets
+  RenderingAnnotation
+  RenderingContextOpenGL2
+  RenderingCore
+  RenderingFreeType
+  RenderingGL2PSOpenGL2
+  RenderingOpenGL2
+  RenderingVolumeOpenGL2
+  CommonColor
+   CommonCore
+   CommonDataModel
+   CommonTransforms
+   IOImage
+   ImagingCore
+   InteractionImage
+   InteractionStyle
+   RenderingContextOpenGL2
+   RenderingCore
+   RenderingFreeType
+   RenderingGL2PSOpenGL2
+   RenderingOpenGL2
 )
 
 if (NOT VTK_FOUND)
